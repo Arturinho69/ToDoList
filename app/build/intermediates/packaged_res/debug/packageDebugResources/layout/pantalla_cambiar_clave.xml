@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAF6F1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar contraseña"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#7048AB"/>
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Usa una contraseña que no hayas usado antes"
+            android:textSize="14sp"
+            android:textColor="#75677E"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:text="Contraseña actual"
+            android:textSize="14sp"
+            android:textColor="#382B46"/>
+
+        <EditText
+            android:id="@+id/txtActual"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="#FFFFFF"
+            android:textColor="#382B46"
+            android:textColorHint="#75677E"
+            android:hint="Escribe tu contraseña actual"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="Nueva contraseña"
+            android:textSize="14sp"
+            android:textColor="#382B46"/>
+
+        <EditText
+            android:id="@+id/txtNueva"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="#FFFFFF"
+            android:textColor="#382B46"
+            android:textColorHint="#75677E"
+            android:hint="Escribe tu nueva contraseña"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="Confirmar contraseña"
+            android:textSize="14sp"
+            android:textColor="#382B46"/>
+
+        <EditText
+            android:id="@+id/txtConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="#FFFFFF"
+            android:textColor="#382B46"
+            android:textColorHint="#75677E"
+            android:hint="Repite tu nueva contraseña"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btnCambiar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#7048AB"
+            android:text="ACTUALIZAR CONTRASEÑA"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#867591"
+            android:text="Volver"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAF6F1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notificaciones"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#7048AB"/>
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Elige tus preferencias. Estos interruptores se guardan en el dispositivo."
+            android:textSize="14sp"
+            android:textColor="#75677E"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="12dp"
+            android:text="Preferencias de notificaciones"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#382B46"/>
+
+        <Switch
+            android:id="@+id/swRecordatorios"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:text="Recordatorios de tareas"
+            android:textSize="14sp"
+            android:textColor="#382B46"
+            android:thumbTint="#7048AB"
+            android:trackTint="#D8C5EB"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/swPrioritarias"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:text="Tareas prioritarias"
+            android:textSize="14sp"
+            android:textColor="#382B46"
+            android:thumbTint="#7048AB"
+            android:trackTint="#D8C5EB"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/swResumen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:background="#FFFFFF"
+            android:text="Resumen diario"
+            android:textSize="14sp"
+            android:textColor="#382B46"
+            android:thumbTint="#7048AB"
+            android:trackTint="#D8C5EB"
+            android:checked="false"/>
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#867591"
+            android:text="Volver"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:background="#FAF6F1"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir tarea"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#7048AB"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la tarea"
+            android:textSize="14sp"
+            android:textColor="#382B46"/>
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:hint="Ej. Comprar leche"
+            android:inputType="text"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="#382B46"
+            android:textColorHint="#75677E"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoría"
+            android:textSize="14sp"
+            android:textColor="#382B46"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/spCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/fondo_spinner"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:spinnerMode="dropdown"
+            android:popupBackground="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado de la tarea"
+            android:textSize="14sp"
+            android:textColor="#382B46"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/spEstado"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/fondo_spinner"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:spinnerMode="dropdown"
+            android:popupBackground="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="14sp"
+            android:textColor="#382B46"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:hint="Descripción (opcional)"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColor="#382B46"
+            android:textColorHint="#75677E"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/chkPrioridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Marcar como prioritaria"
+            android:textColor="#382B46"
+            android:textSize="14sp"
+            android:buttonTint="#7048AB"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#7048AB"
+            android:text="Guardar"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#B75B70"
+            android:text="Eliminar tarea"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#867591"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
