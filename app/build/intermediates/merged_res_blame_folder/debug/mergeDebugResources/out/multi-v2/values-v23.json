@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.todolist_masco.app-mergeDebugResources-33:/values-v23/values-v23.xml",
+            "outputFile": "com.example.todolist_masco.app-mergeDebugResources-37:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\artur\\.gradle\\caches\\9.3.0\\transforms\\baffb1e7c6325f916e0a307b6fde3459\\workspace\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

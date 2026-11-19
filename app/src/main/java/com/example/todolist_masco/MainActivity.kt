@@ -2,13 +2,14 @@ package com.example.todolist_masco
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import com.example.todolist_masco.core.SessionManager
 import com.example.todolist_masco.data.AppDatabase
 import com.example.todolist_masco.ui.*
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,49 +18,51 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val dao = AppDatabase.getInstance(this).todoDao()
-
-        val preferencias = getSharedPreferences(
-            "sesion_todolist", MODE_PRIVATE
-        )
-
-        val usuarioId = preferencias.getLong("usuario", 0L)
-
-        if (usuarioId != 0L && dao.usuarioPorId(usuarioId) != null) {
-            startActivity(Intent(this, TareasActivity::class.java))
-            finish()
-            return
-        }
-
+        val sessionManager = SessionManager(this)
         val txtUsuario = findViewById<EditText>(R.id.txtUsuario)
         val txtContrasena = findViewById<EditText>(R.id.txtContrasena)
-        val btnInicio = findViewById<Button>(R.id.btnInicio)
-        val btnRegistro = findViewById<TextView>(R.id.btnRegistro)
-        val btnRecuperar = findViewById<TextView>(R.id.btnRecuperar)
 
-        btnInicio.setOnClickListener {
+        lifecycleScope.launch {
+            val sesion = sessionManager.isLoggedIn.first()
+            val usuarioId = sessionManager.userId.first()
+
+            if (sesion && usuarioId != 0L && dao.usuarioPorId(usuarioId) != null) abrirTareas()
+        }
+
+        findViewById<Button>(R.id.btnInicio).setOnClickListener {
             val correo = txtUsuario.text.toString().trim().lowercase()
             val clave = txtContrasena.text.toString()
-
             val usuario = dao.usuarioPorCorreo(correo)
 
-            if (correo.isEmpty() || clave.isEmpty()) {
-                Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
-            } else if (usuario == null || usuario.clave != clave) {
-                Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show()
-            } else {
-                preferencias.edit().putLong("usuario", usuario.id).apply()
+            when {
+                correo.isEmpty() || clave.isEmpty() ->
+                    aviso("Completa todos los campos")
 
-                startActivity(Intent(this, TareasActivity::class.java))
-                finish()
+                usuario == null || usuario.clave != clave ->
+                    aviso("Correo o contraseña incorrectos")
+
+                else -> lifecycleScope.launch {
+                    sessionManager.saveSession(usuario.id, usuario.nombre)
+                    abrirTareas()
+                }
             }
         }
 
-        btnRegistro.setOnClickListener {
+        findViewById<TextView>(R.id.btnRegistro).setOnClickListener {
             startActivity(Intent(this, RegistroActivity::class.java))
         }
 
-        btnRecuperar.setOnClickListener {
+        findViewById<TextView>(R.id.btnRecuperar).setOnClickListener {
             startActivity(Intent(this, RecuperarClaveActivity::class.java))
         }
+    }
+
+    private fun abrirTareas() {
+        startActivity(Intent(this, TareasActivity::class.java))
+        finish()
+    }
+
+    private fun aviso(mensaje: String) {
+        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
     }
 }

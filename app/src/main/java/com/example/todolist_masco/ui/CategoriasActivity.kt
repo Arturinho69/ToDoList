@@ -11,6 +11,12 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.todolist_masco.R
 import com.example.todolist_masco.data.*
+import androidx.lifecycle.lifecycleScope
+import com.example.todolist_masco.core.SessionManager
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+
+
 
 class CategoriasActivity : AppCompatActivity() {
 
@@ -20,14 +26,17 @@ class CategoriasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         dao = AppDatabase.getInstance(this).todoDao()
-        usuarioId = getSharedPreferences("sesion_todolist", MODE_PRIVATE).getLong("usuario", 0L)
 
-        if (usuarioId == 0L) {
-            finish()
-            return
+        lifecycleScope.launch {
+            usuarioId = SessionManager(this@CategoriasActivity).userId.first()
+
+            if (usuarioId == 0L) {
+                finish()
+                return@launch
+            }
+
+            mostrarCategorias()
         }
-
-        mostrarCategorias()
     }
 
     override fun onResume() {

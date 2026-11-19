@@ -1,4 +1,3 @@
-
 package com.example.todolist_masco.ui
 
 import android.app.AlertDialog
@@ -12,15 +11,17 @@ import android.view.Gravity
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
 import com.example.todolist_masco.R
+import com.example.todolist_masco.core.SessionManager
 import com.example.todolist_masco.data.*
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 
 class TareasActivity : AppCompatActivity() {
 
     private val dao by lazy { AppDatabase.getInstance(this).todoDao() }
-    private val usuarioId by lazy {
-        getSharedPreferences("sesion_todolist", MODE_PRIVATE).getLong("usuario", 0L)
-    }
+    private var usuarioId = 0L
 
     private var filtro = "Todas"
     private var pendientes = false
@@ -30,14 +31,19 @@ class TareasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        if (usuarioId == 0L) {
-            finish()
-            return
-        }
-
         filtro = intent.getStringExtra("filtro") ?: "Todas"
         pendientes = intent.getBooleanExtra("pendientes", false)
-        mostrarTareas()
+
+        lifecycleScope.launch {
+            usuarioId = SessionManager(this@TareasActivity).userId.first()
+
+            if (usuarioId == 0L) {
+                finish()
+                return@launch
+            }
+
+            mostrarTareas()
+        }
     }
 
     override fun onResume() {
@@ -118,6 +124,7 @@ class TareasActivity : AppCompatActivity() {
             val check = vista.findViewById<CheckBox>(R.id.chkHecha)
 
             nombre.text = tarea.nombre
+
             val lblCategoria = vista.findViewById<TextView>(R.id.lblCategoria)
             val categoria = categorias.find { it.nombre == tarea.categoria }
 
@@ -132,15 +139,18 @@ class TareasActivity : AppCompatActivity() {
             check.isChecked = tarea.estado == "Completada"
 
             check.setOnCheckedChangeListener { _, marcado ->
-                dao.actualizarTarea(tarea.copy(
-                    completada = marcado,
-                    estado = if (marcado) "Completada" else "Pendiente"
-                ))
+                dao.actualizarTarea(
+                    tarea.copy(
+                        completada = marcado,
+                        estado = if (marcado) "Completada" else "Pendiente"
+                    )
+                )
                 actualizarLista()
             }
 
             vista.findViewById<TextView>(R.id.btnPrioridad).apply {
                 alpha = if (tarea.prioridad) 1f else 0.35f
+
                 setOnClickListener {
                     dao.actualizarTarea(tarea.copy(prioridad = !tarea.prioridad))
                     actualizarLista()
@@ -173,6 +183,7 @@ class TareasActivity : AppCompatActivity() {
         }
 
         ponerOpciones(spCategoria, categorias, tarea?.categoria)
+
         ponerOpciones(
             spEstado,
             listOf("Pendiente", "En progreso", "Completada"),
@@ -243,21 +254,15 @@ class TareasActivity : AppCompatActivity() {
         val adaptador = object : ArrayAdapter<String>(
             this, android.R.layout.simple_spinner_item, opciones
         ) {
-            override fun getView(
-                pos: Int, vista: View?, padre: android.view.ViewGroup
-            ): View {
-                return super.getView(pos, vista, padre).apply {
+            override fun getView(pos: Int, vista: View?, padre: android.view.ViewGroup): View =
+                super.getView(pos, vista, padre).apply {
                     (this as TextView).setTextColor(Color.parseColor("#382B46"))
                 }
-            }
 
-            override fun getDropDownView(
-                pos: Int, vista: View?, padre: android.view.ViewGroup
-            ): View {
-                return super.getDropDownView(pos, vista, padre).apply {
+            override fun getDropDownView(pos: Int, vista: View?, padre: android.view.ViewGroup): View =
+                super.getDropDownView(pos, vista, padre).apply {
                     (this as TextView).setTextColor(Color.parseColor("#382B46"))
                 }
-            }
         }
 
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -269,7 +274,10 @@ class TareasActivity : AppCompatActivity() {
                 override fun onNothingSelected(parent: AdapterView<*>?) {}
 
                 override fun onItemSelected(
-                    parent: AdapterView<*>?, view: View?, posicion: Int, id: Long
+                    parent: AdapterView<*>?,
+                    view: View?,
+                    posicion: Int,
+                    id: Long
                 ) {
                     if (opciones[posicion] != seleccionado)
                         alCambiar(opciones[posicion])
@@ -286,14 +294,20 @@ class TareasActivity : AppCompatActivity() {
 
         for (i in opciones.indices) {
             val boton = TextView(this)
+
             boton.text = opciones[i]
             boton.textSize = 12f
             boton.gravity = Gravity.CENTER
             boton.setTextColor(Color.parseColor("#7048AB"))
 
-            barra.addView(boton, LinearLayout.LayoutParams(
-                0, LinearLayout.LayoutParams.MATCH_PARENT, 1f
-            ))
+            barra.addView(
+                boton,
+                LinearLayout.LayoutParams(
+                    0,
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    1f
+                )
+            )
 
             boton.setOnClickListener {
                 when (i) {
@@ -303,16 +317,19 @@ class TareasActivity : AppCompatActivity() {
                         busqueda = ""
                         mostrarTareas()
                     }
+
                     1 -> {
                         pendientes = true
                         filtro = "Todas"
                         busqueda = ""
                         mostrarTareas()
                     }
+
                     2 -> {
                         startActivity(Intent(this, CategoriasActivity::class.java))
                         finish()
                     }
+
                     3 -> {
                         startActivity(Intent(this, PerfilActivity::class.java))
                         finish()

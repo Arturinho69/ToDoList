@@ -9,6 +9,11 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.todolist_masco.R
 import com.example.todolist_masco.data.AppDatabase
 import com.example.todolist_masco.data.TodoDao
+import androidx.lifecycle.lifecycleScope
+import com.example.todolist_masco.core.SessionManager
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.first
+
 
 class EditarPerfilActivity : AppCompatActivity() {
 
@@ -21,59 +26,56 @@ class EditarPerfilActivity : AppCompatActivity() {
 
         dao = AppDatabase.getInstance(this).todoDao()
 
-        usuarioId = getSharedPreferences("sesion_todolist", MODE_PRIVATE)
-            .getLong("usuario", 0L)
+        lifecycleScope.launch {
+            usuarioId = SessionManager(this@EditarPerfilActivity).userId.first()
 
-        if (usuarioId == 0L) {
-            finish()
-            return
-        }
+            if (usuarioId == 0L) {
+                finish()
+                return@launch
+            }
 
-        val usuario = dao.usuarioPorId(usuarioId)
+            val usuario = dao.usuarioPorId(usuarioId)
 
-        if (usuario == null) {
-            finish()
-            return
-        }
+            if (usuario == null) {
+                finish()
+                return@launch
+            }
 
-        val txtNombre = findViewById<EditText>(R.id.txtNombre)
-        val txtCorreo = findViewById<EditText>(R.id.txtCorreo)
+            val txtNombre = findViewById<EditText>(R.id.txtNombre)
+            val txtCorreo = findViewById<EditText>(R.id.txtCorreo)
 
-        txtNombre.setText(usuario.nombre)
-        txtCorreo.setText(usuario.correo)
+            txtNombre.setText(usuario.nombre)
+            txtCorreo.setText(usuario.correo)
 
-        findViewById<Button>(R.id.btnGuardar).setOnClickListener {
+            findViewById<Button>(R.id.btnGuardar).setOnClickListener {
+                val nombre = txtNombre.text.toString().trim()
+                val correo = txtCorreo.text.toString().trim().lowercase()
 
-            val nombre = txtNombre.text.toString().trim()
-            val correo = txtCorreo.text.toString().trim().lowercase()
+                when {
+                    nombre.isBlank() -> txtNombre.error = "Escribe tu nombre"
+                    nombre.length < 3 -> txtNombre.error = "Mínimo 3 caracteres"
+                    !Patterns.EMAIL_ADDRESS.matcher(correo).matches() ->
+                        txtCorreo.error = "Escribe un correo válido"
 
-            when {
-                nombre.isBlank() ->
-                    txtNombre.error = "Escribe tu nombre"
+                    dao.usuarioPorCorreo(correo)?.id != null &&
+                            dao.usuarioPorCorreo(correo)?.id != usuarioId ->
+                        txtCorreo.error = "Ese correo ya está registrado"
 
-                nombre.length < 3 ->
-                    txtNombre.error = "Mínimo 3 caracteres"
+                    else -> {
+                        dao.editarUsuario(usuarioId, nombre, correo)
 
-                !Patterns.EMAIL_ADDRESS.matcher(correo).matches() ->
-                    txtCorreo.error = "Escribe un correo válido"
+                        Toast.makeText(
+                            this@EditarPerfilActivity,
+                            "Perfil actualizado",
+                            Toast.LENGTH_SHORT
+                        ).show()
 
-                dao.usuarioPorCorreo(correo)?.id != null &&
-                        dao.usuarioPorCorreo(correo)?.id != usuarioId ->
-                    txtCorreo.error = "Ese correo ya está registrado"
-
-                else -> {
-                    dao.editarUsuario(usuarioId, nombre, correo)
-
-                    Toast.makeText(
-                        this,
-                        "Perfil actualizado",
-                        Toast.LENGTH_SHORT
-                    ).show()
-
-                    finish()
+                        finish()
+                    }
                 }
             }
         }
+
 
         findViewById<Button>(R.id.btnAtras).setOnClickListener {
             finish()

@@ -1,6 +1,14 @@
 R_DEF: Internal format may change without notice
 local
+color borde
+color fondo
 color ic_launcher_background
+color morado
+color morado_claro
+color rojo
+color tarjeta
+color texto
+color texto_secundario
 drawable flecha_spinner
 drawable fondo_campo
 drawable fondo_categoria
@@ -27,6 +35,7 @@ id btnRecuperar
 id btnRecuperarClave
 id btnRegistrar
 id btnRegistro
+id btnRestablecer
 id btnSalir
 id btnVolver
 id cabecera
@@ -53,8 +62,11 @@ id spCategoria
 id spColor
 id spEstado
 id spFiltro
+id spIdioma
 id spOrden
 id sub
+id swModoOscuro
+id swNotificaciones
 id swPrioritarias
 id swRecordatorios
 id swResumen
@@ -77,6 +89,7 @@ layout item_categoria
 layout item_tarea
 layout pantalla_cambiar_clave
 layout pantalla_categorias
+layout pantalla_configuracion
 layout pantalla_editar_perfil
 layout pantalla_notificaciones
 layout pantalla_perfil

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fondo">#1D1921</color>
+    <color name="tarjeta">#2A2430</color>
+
+    <color name="texto">#F5EFF7</color>
+    <color name="texto_secundario">#C5B8CC</color>
+
+    <color name="morado">#B99CDD</color>
+    <color name="morado_claro">#D1B8EC</color>
+
+    <color name="rojo">#D9788E</color>
+    <color name="borde">#51475A</color>
+
+</resources>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="borde">#D9CEDF</color>
+    <color name="fondo">#FAF6F1</color>
     <color name="ic_launcher_background">#7048AB</color>
+    <color name="morado">#7048AB</color>
+    <color name="morado_claro">#B99CDD</color>
+    <color name="rojo">#B75B70</color>
+    <color name="tarjeta">#FFFFFF</color>
+    <color name="texto">#382B46</color>
+    <color name="texto_secundario">#75677E</color>
     <string name="app_name">ToDoList</string>
     <style name="Theme.ToDoList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#7048AB</item>

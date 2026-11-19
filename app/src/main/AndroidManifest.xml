@@ -7,7 +7,13 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ToDoList">
+        android:theme="@style/Theme.ToDoList"
+        >
+
+        <activity
+            android:name=".ui.ConfiguracionActivity"
+            android:exported="false"/>
+
 
         <activity
             android:name=".MainActivity"

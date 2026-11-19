@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.todolist_masco.app-mergeDebugResources-33:/values-vi/values-vi.xml",
+            "outputFile": "com.example.todolist_masco.app-mergeDebugResources-37:/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\artur\\.gradle\\caches\\9.3.0\\transforms\\0c8635a6eb77076c5a9e4fec673c0874\\workspace\\transformed\\core-1.15.0\\res\\values-vi\\values-vi.xml",

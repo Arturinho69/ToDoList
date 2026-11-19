@@ -26,6 +26,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ToDoList" >
         <activity
+            android:name="com.example.todolist_masco.ui.ConfiguracionActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.todolist_masco.MainActivity"
             android:exported="true" >
             <intent-filter>

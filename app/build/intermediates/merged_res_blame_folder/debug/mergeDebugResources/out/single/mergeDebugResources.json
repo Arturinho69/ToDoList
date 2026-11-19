@@ -1,142 +1,150 @@
 [
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_registro.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_registro.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\drawable_fondo_spinner.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\drawable\\fondo_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_perfil.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_perfil.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_editar_perfil.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_editar_perfil.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_dialogo_categoria.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\dialogo_categoria.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\drawable_fondo_categoria.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\drawable\\fondo_categoria.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\drawable_fondo_campo.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\drawable\\fondo_campo.xml"
+        "merged": "com.example.todolist_masco.app-debug-39:/drawable_fondo_spinner.xml.flat",
+        "source": "com.example.todolist_masco.app-main-41:/drawable/fondo_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_tareas.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_tareas.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_dialogo_tarea.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\dialogo_tarea.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_editar_perfil.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_editar_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_categorias.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_categorias.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_recuperar.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_recuperar.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_notificaciones.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_notificaciones.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_categorias.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_categorias.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_notificaciones.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_notificaciones.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_registro.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_registro.xml"
     },
     {
-        "merged": "com.example.todolist_masco.app-debug-35:/layout_item_categoria.xml.flat",
-        "source": "com.example.todolist_masco.app-main-37:/layout/item_categoria.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\drawable_flecha_spinner.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\drawable\\flecha_spinner.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\drawable_fondo_spinner.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\drawable\\fondo_spinner.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_configuracion.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_configuracion.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_item_tarea.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\item_tarea.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_dialogo_categoria.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\dialogo_categoria.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_perfil.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\drawable_flecha_spinner.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\drawable\\flecha_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_recuperar.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_recuperar.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_pantalla_cambiar_clave.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\pantalla_cambiar_clave.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_dialogo_tarea.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\dialogo_tarea.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\drawable_fondo_campo.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\drawable\\fondo_campo.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_item_categoria.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\item_categoria.xml"
     },
     {
-        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-35:\\layout_item_tarea.xml.flat",
-        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-37:\\layout\\item_tarea.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_cambiar_clave.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_cambiar_clave.xml"
     },
     {
-        "merged": "com.example.todolist_masco.app-debug-35:/drawable_fondo_categoria.xml.flat",
-        "source": "com.example.todolist_masco.app-main-37:/drawable/fondo_categoria.xml"
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-debug-39:\\layout_pantalla_tareas.xml.flat",
+        "source": "C:\\Users\\artur\\.gradle\\daemon\\9.3.0\\com.example.todolist_masco.app-main-41:\\layout\\pantalla_tareas.xml"
     }
 ]

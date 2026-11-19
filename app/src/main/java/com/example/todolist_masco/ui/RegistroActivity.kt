@@ -9,6 +9,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.todolist_masco.MainActivity
 import com.example.todolist_masco.R
 import com.example.todolist_masco.data.*
+import androidx.lifecycle.lifecycleScope
+import com.example.todolist_masco.core.SessionManager
+import kotlinx.coroutines.launch
 
 class RegistroActivity : AppCompatActivity() {
 
@@ -67,17 +70,16 @@ class RegistroActivity : AppCompatActivity() {
                         )
                     }
 
-                    getSharedPreferences("sesion_todolist", MODE_PRIVATE)
-                        .edit().putLong("usuario", id).apply()
+                    lifecycleScope.launch {
+                        SessionManager(this@RegistroActivity).saveSession(id, nombre)
 
-                    Toast.makeText(this, "Cuenta creada", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@RegistroActivity, "Cuenta creada", Toast.LENGTH_SHORT).show()
 
-                    val intent = Intent(this, MainActivity::class.java)
-                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or
-                            Intent.FLAG_ACTIVITY_CLEAR_TASK
-
-                    startActivity(intent)
-                    finish()
+                        val intent = Intent(this@RegistroActivity, MainActivity::class.java)
+                        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                        startActivity(intent)
+                        finish()
+                    }
                 }
             }
         }

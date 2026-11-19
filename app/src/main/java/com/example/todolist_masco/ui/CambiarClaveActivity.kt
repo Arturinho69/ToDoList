@@ -9,6 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.todolist_masco.R
 import com.example.todolist_masco.data.AppDatabase
 import com.example.todolist_masco.data.TodoDao
+import androidx.lifecycle.lifecycleScope
+import com.example.todolist_masco.core.SessionManager
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 
 class CambiarClaveActivity : AppCompatActivity() {
 
@@ -21,12 +25,13 @@ class CambiarClaveActivity : AppCompatActivity() {
 
         dao = AppDatabase.getInstance(this).todoDao()
 
-        usuarioId = getSharedPreferences("sesion_todolist", MODE_PRIVATE)
-            .getLong("usuario", 0L)
+        lifecycleScope.launch {
+            usuarioId = SessionManager(this@CambiarClaveActivity).userId.first()
 
-        if (usuarioId == 0L) {
-            finish()
-            return
+            if (usuarioId == 0L) {
+                finish()
+                return@launch
+            }
         }
 
         val txtActual = findViewById<EditText>(R.id.txtActual)

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:1-63:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\9f27600542d25ae64f6576f1150daebf\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\0aa2022679d56452226c8cdea09a2bcd\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\d3fe87528acbc3b2ab23374ccdacd53c\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -36,6 +36,10 @@ MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\artur\.gradle\caches\9.3.0\
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\artur\.gradle\caches\9.3.0\transforms\98c9a7df32cfc6e509e6dd71b2aeff6b\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\6243356b27ffe7a6e0789f3419008127\workspace\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\146f4e3a566ad9b56fd7556497eaf394\workspace\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\4cdd4c863f3cca8a89c4482f1456cd68\workspace\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\9673eb38dd3f40d3e4a963f95867f36a\workspace\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\7503a9018695800a2ea28d2fbd50bab5\workspace\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\1a46b509c5cf7663e74a7b3fc958008b\workspace\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\9dc7ab393ca4fb67b02dd90e84b6d0f7\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\a4ffa8b713c79a04d17446d78a4beb0c\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\bad1ebd6d160387a551db8855058dbbc\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
@@ -57,8 +61,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\artur\.
 	xmlns:android
 		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:4:5-55:19
-INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:4:5-55:19
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:4:5-61:19
+INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:4:5-61:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\9f27600542d25ae64f6576f1150daebf\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\9f27600542d25ae64f6576f1150daebf\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\0aa2022679d56452226c8cdea09a2bcd\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -93,70 +97,76 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ar
 		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
 		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:10:9-46
+activity#com.example.todolist_masco.ui.ConfiguracionActivity
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:13:9-15:39
+	android:exported
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:14:13-53
 activity#com.example.todolist_masco.MainActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:18:9-27:20
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:16:13-19:29
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.todolist_masco.ui.RegistroActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:24:13-48
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:30:13-48
 activity#com.example.todolist_masco.ui.RecuperarClaveActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:28:13-54
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:34:13-54
 activity#com.example.todolist_masco.ui.TareasActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:32:13-46
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:38:13-46
 activity#com.example.todolist_masco.ui.CategoriasActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:35:9-37:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:36:13-50
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:42:13-50
 activity#com.example.todolist_masco.ui.PerfilActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:39:9-41:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:40:13-46
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:46:13-46
 activity#com.example.todolist_masco.ui.EditarPerfilActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:43:9-45:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:49:9-51:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:44:13-52
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:50:13-52
 activity#com.example.todolist_masco.ui.CambiarClaveActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:48:13-52
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:54:13-52
 activity#com.example.todolist_masco.ui.NotificacionesActivity
-ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:51:9-53:40
+ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:57:9-59:40
 	android:exported
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:52:13-54
+		ADDED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml:58:13-54
 uses-sdk
 INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\artur\Downloads\ToDoList_MASCO\app\src\main\AndroidManifest.xml
@@ -225,6 +235,14 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\artur\.gradle\cach
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\6243356b27ffe7a6e0789f3419008127\workspace\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\146f4e3a566ad9b56fd7556497eaf394\workspace\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\146f4e3a566ad9b56fd7556497eaf394\workspace\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\4cdd4c863f3cca8a89c4482f1456cd68\workspace\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\4cdd4c863f3cca8a89c4482f1456cd68\workspace\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\9673eb38dd3f40d3e4a963f95867f36a\workspace\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\9673eb38dd3f40d3e4a963f95867f36a\workspace\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\7503a9018695800a2ea28d2fbd50bab5\workspace\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\7503a9018695800a2ea28d2fbd50bab5\workspace\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\1a46b509c5cf7663e74a7b3fc958008b\workspace\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\artur\.gradle\caches\9.3.0\transforms\1a46b509c5cf7663e74a7b3fc958008b\workspace\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\9dc7ab393ca4fb67b02dd90e84b6d0f7\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\9dc7ab393ca4fb67b02dd90e84b6d0f7\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\artur\.gradle\caches\9.3.0\transforms\a4ffa8b713c79a04d17446d78a4beb0c\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
